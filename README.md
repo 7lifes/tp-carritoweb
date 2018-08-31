@@ -41,7 +41,7 @@ Atributos:
 ### Endpoints
 
 URL                             | Verbo HTTP  | Resultado
- 
+==============================    ===========   =========
 /productos                      | GET        | Retorna todos los productos
 /productos                      | POST       | Crea un producto
 /productos/:id                   | GET        | Retorna un producto determinado
