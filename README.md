@@ -55,3 +55,23 @@ URL                             | Verbo HTTP  | Resultado
 /productGroups /:id           | DELETE  | Elimina un grupo de productos determinado
 /productGroups ?sort=az\|za   | GET     | Retorna todos los grupos de productos, ordenados en forma ascendente o descendente (A-Z o Z-A)
 /productGroups /:id/productos    | GET     | Retorna los productos de un grupo determinado
+
+### Códigos de retorno HTTP exitosos
+
+Verbo HTTP | Código de retorno | Descripción
+:--------: | :---------------: | :--------------------------------:
+GET        | 200 OK            | Recursos obtenidos correctamente
+POST       | 201 Created       | Recurso dado de alta correctamente
+PUT        | 200 OK            | Recurso actualizado correctamente
+DELETE     | 200 OK            | Recurso eliminado correctamente
+
+### Códigos de retorno HTTP con error
+
+Código de retorno         | Descripción
+:-----------------------: | :-------------------:
+404 Not Found             | Recurso no encontrado
+400 Bad Request           | Petición malformada
+500 Internal Server Error | Error de conexión
+
+
+
